@@ -1,0 +1,293 @@
+body {
+  padding: 10px 290px;
+  font-family: "Libre Franklin", sans-serif;
+}
+header {
+  width: 1310px;
+}
+.paper {
+  display: grid;
+  grid-template-areas: "left-side right-side";
+  gap: 50px;
+}
+.left-side {
+  grid-area: "left-side ";
+  width: 863px;
+}
+.right-side {
+  grid-area: "right-right";
+  width: 337px;
+}
+main {
+  width: 1200px;
+}
+.first-header {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 6px;
+  font-size: 13px;
+}
+button {
+  background-color: rgb(80, 120, 148);
+  color: white;
+  /* font-size: 14px; */
+  border-radius: 5px;
+  border: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(56, 98, 128);
+}
+.pages {
+  margin-left: 190px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.svg {
+  width: 430px;
+  height: 58px;
+  margin-right: 200px;
+}
+hr {
+  background-color: gray;
+  height: 0.5px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  width: 1700px;
+  margin-left: -200px;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 20px;
+}
+.news {
+  margin-left: 450px;
+}
+
+.trivial {
+  margin-right: 450px;
+}
+.hr-testing {
+  border: 1px solid black;
+}
+.recents {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3);
+}
+.artcile-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.artcile-2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border-top: 1px solid grey;
+}
+.graph {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.recents-2 {
+  display: flex;
+  width: 890px;
+  border-top: 1px solid grey;
+  gap: 20px;
+  border-bottom: 1px solid grey;
+}
+.vl-2 {
+  border-left: 1px solid grey;
+  height: 40px;
+  margin-top: 20px;
+}
+.headline {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  width: 890px;
+}
+.save-gaza {
+  width: 91px;
+  height: 95px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  color: gray;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.img25 {
+  margin-top: 5px;
+}
+.information {
+  line-height: 8px;
+}
+span {
+  color: gray;
+  margin-left: 10px;
+}
+.artcile-5 {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid black;
+  width: 900px;
+}
+.africa-img {
+  width: 522px;
+  height: 348px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.africa {
+  width: 275px;
+}
+.span-africa {
+  font-size: 12px;
+}
+.africa-p {
+  margin-top: -15px;
+}
+.us {
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
+  grid-template-rows: repeat(3);
+  gap: 29px;
+  border-bottom: 1px solid black;
+  width: 900px;
+}
+.article-6 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-bottom: 1px solid grey;
+}
+.article-7 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: -40px;
+}
+
+.us-img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 522px;
+  height: 348px;
+}
+.us span {
+  font-size: 12px;
+}
+.left-side {
+  border-right: 1px solid grey;
+  width: 920px;
+}
+.dev {
+  display: flex;
+  flex-direction: column;
+  width: 337px;
+  border-bottom: 1px solid grey;
+}
+.dev img {
+  width: 337px;
+  height: 225px;
+  margin-top: 10px;
+}
+.dev-p {
+  margin-top: -10px;
+}
+.dev-span {
+  font-size: 12px;
+}
+.scroll {
+  display: flex;
+  gap: 10px;
+  width: 337px;
+  border-bottom: 1px solid grey;
+}
+.scroll img {
+  width: 151px;
+  height: 101px;
+  margin-top: 10px;
+}
+.scroll h4 {
+  margin-top: -2px;
+}
+.scroll span {
+  font-size: 12px;
+}
+.opinion {
+  width: 337px;
+}
+.opinion p {
+  font-size: 14px;
+}
+.opinion span {
+  font-size: 12px;
+}
+.opinion h3 {
+  margin-top: -12px;
+}
+.Jordan {
+  border-bottom: 1px solid grey;
+}
+.Jordan img {
+  margin-bottom: 10px;
+}
+.Jordan h4 {
+  margin-top: -12px;
+}
+.opinion img {
+  width: 337px;
+  height: 225px;
+}
+.help-ukraine {
+  border-bottom: 1px solid grey;
+}
+.art img {
+  width: 152px;
+  height: 152px;
+}
+.art {
+  display: flex;
+  margin-top: -20px;
+}
+main p {
+  color: grey;
+}
+main h2:hover {
+  color: grey;
+  cursor: pointer;
+}
+h4:hover {
+  color: grey;
+  cursor: pointer;
+}
